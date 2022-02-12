@@ -85,5 +85,3 @@ class Usuario {
   console.log(`Libros usuario 2: ${usuario2.getBookNames()}`);
   console.log("");
   
-  console.log(usuario1.nombre);
-  console.log(usuario1.apellido);

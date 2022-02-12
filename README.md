@@ -1,6 +1,10 @@
-# BackendExercise
+# Comisión 20645 - CODERHOUSE
+# Programación Backend
+> Docente: David Quezada
+> Tutor: Boris Alejandro Martínez
+> Alumno: Guillermo Vicente
 
-##  Clases
+##  Entrega Desafío Clases
 
 ### Se declara una clase Usuario 
 
