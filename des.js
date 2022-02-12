@@ -6,7 +6,7 @@ class Usuario {
     this.mascotas = mascotas;
   }
 
-  getFullName(nombre, apellido) {
+  getFullName() {
     return `${this.nombre} ${this.apellido}`;
   }
 
