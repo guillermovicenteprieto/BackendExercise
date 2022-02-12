@@ -1,3 +1,5 @@
+//declarando la clase Usuario
+
 class Usuario {
   constructor(nombre, apellido, libros, mascotas) {
     this.nombre = nombre;
@@ -27,6 +29,7 @@ class Usuario {
   }
 }
 
+// Instanciando un objeto de la clase Usuario
 const usuario1 = new Usuario(
   "Guillermo",
   "Vicente",
@@ -37,6 +40,7 @@ const usuario1 = new Usuario(
   ["Perro", "Gato"]
 );
 
+// Instanciando un nuevo usuario
 const usuario2 = new Usuario(
   "Elon",
   "Musk",
@@ -44,7 +48,8 @@ const usuario2 = new Usuario(
   ["Conejo", "Pato", "Ternero"]
 );
 
-console.log({ usuario1 });
+console.log(usuario1);
+console.log(usuario2);
 
 console.log("---método 1: getFullName---");
 console.log(`Nombre Completo usuario 1: ${usuario1.getFullName()}`);
@@ -76,5 +81,9 @@ usuario2.addBook("Historia Universal de la infamia", "Jorge Luis Borges");
 console.log("");
 
 console.log("-----método 5: getBookNames-----");
-console.log(`Libros usuario1: ${usuario1.getBookNames()}`);
-console.log(`Libros usuario1: ${usuario2.getBookNames()}`);
+console.log(`Libros usuario 1: ${usuario1.getBookNames()}`);
+console.log(`Libros usuario 2: ${usuario2.getBookNames()}`);
+console.log("");
+
+console.log(usuario1.nombre);
+console.log(usuario1.apellido);
