@@ -6,11 +6,8 @@
 
 #### Cuenta con los siguientes atributos:
 > nombre: String
-
 > apellido: String
-
 > libros: Object[]
-
 > mascotas: String[]
 
 
