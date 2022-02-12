@@ -44,37 +44,35 @@ const usuario2 = new Usuario(
   ["Conejo", "Pato", "Ternero"]
 );
 
-//console.log({ usuario1 });
-console.log("-----método 1: getFullName-----");
+console.log({ usuario1 });
+
+console.log("---método 1: getFullName---");
 console.log(`Nombre Completo usuario 1: ${usuario1.getFullName()}`);
 console.log(`Nombre Completo usuario 2: ${usuario2.getFullName()}`);
 console.log("");
 
-console.log("-----método 2: addMascota-----");
-console.log(`Add mascota usuario 1: ${usuario1.addMascota("Pancho")}`);
-console.log(`Add mascota usuario 2: ${usuario2.addMascota("Shiba")}`);
+console.log(`Mascotas usuario 1: ${usuario1.mascotas}`);
+console.log(`Mascotas usuario 2: ${usuario2.mascotas}`);
+console.log("---método 2: addMascota---");
+console.log(`Agrego mascota de nombre Pancho a usuario 1 `);
+usuario1.addMascota("Pancho");
+console.log(`Agrego mascota de nombre Shiba a usuario 2`);
+usuario2.addMascota("Shiba");
+console.log("");
+console.log(`Mascotas usuario 1 ahora: ${usuario1.mascotas}`);
+console.log(`Mascotas usuario 2 ahora: ${usuario2.mascotas}`);
 console.log("");
 
-console.log("-----método 3: countMascotas-----");
+console.log("---método 3: countMascotas---");
 console.log(`Cantidad Mascotas usuario 1: ${usuario1.countMascotas()}`);
 console.log(`Cantidad mascotas usuario 2: ${usuario2.countMascotas()}`);
 console.log("");
 
-console.log("-----método 4: getBookNames-----");
-console.log(`Libros usuario1: ${usuario1.getBookNames()}`);
-console.log(`Libros usuario1: ${usuario2.getBookNames()}`);
-console.log("");
-
-console.log("-----método 4 - addBook-----");
-console.log(
-  `Cantidad libros usuario1: ${usuario1.addBook("Rayuela", "Julio Cortázar")}`
-);
-console.log(
-  `Cantidad libros usuario2: ${usuario2.addBook(
-    "Historia Universal de la infamia",
-    "Jorge Luis Borges"
-  )}`
-);
+console.log("-----método 4: addBook-----");
+console.log(`Se agrega título de Cortázar al array de libros de usuario 1 `);
+usuario1.addBook("Rayuela", "Julio Cortázar");
+console.log(`Se agrega título de Borges al array de libros de usuario 2 `);
+usuario2.addBook("Historia Universal de la infamia", "Jorge Luis Borges");
 console.log("");
 
 console.log("-----método 5: getBookNames-----");
