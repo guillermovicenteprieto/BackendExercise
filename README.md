@@ -1,17 +1,23 @@
-# Comisión 20645 - CODERHOUSE
-# Programación Backend
+## Comisión 20645 - CODERHOUSE
+## Programación Backend
 > Docente: David Quezada
+
 > Tutor: Boris Alejandro Martínez
+
 > Alumno: Guillermo Vicente
 
-##  Entrega Desafío Clases
 
-### Se declara una clase Usuario 
+##  Entrega Desafío: "Clases"
+
+### Se declara la clase 'Usuario' 
 
 #### Cuenta con los siguientes atributos:
 > nombre: String
+
 > apellido: String
+
 > libros: Object[]
+
 > mascotas: String[]
 
 
