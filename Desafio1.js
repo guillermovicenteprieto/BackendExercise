@@ -21,11 +21,11 @@ class Usuario {
     }
   
     addBook(nombre, autor) {
-      return this.libros.push({ nombre: nombre, autor: autor });
+      return this.libros.push({ nombre, autor });
     }
   
     getBookNames() {
-      return `${this.libros.map((book) => book.nombre)}`;
+      return this.libros.map((book) => book.nombre);
     }
   }
   
