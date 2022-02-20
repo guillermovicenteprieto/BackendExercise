@@ -9,31 +9,21 @@
 > Alumno: Guillermo Vicente
 
 
-##  Entrega Desafío: "Clases"
+##  Entrega Desafío: "MANEJO DE ARCHIVOS"
 
-### Se declara la clase 'Usuario' 
+### Formato: carpeta comprimida con el proyecto. 
 
-#### Cuenta con los siguientes atributos:
-> nombre: String
+#### Se implementa programa que contenga una clase llamada Contenedor que recibe el nombre del archivo con el que va a trabajar e implemente los siguientes métodos:
 
-> apellido: String
+> *save(Object):*. Number - Recibe un objeto, lo guarda en el archivo, devuelve el id asignado. 
 
-> libros: Object[]
+> *getById(Number):* Object - Recibe un id y devuelve el objeto con ese id, o null si no está.
 
-> mascotas: String[]
+> *getAll():* Object[] - Devuelve un array con los objetos presentes en el archivo.
 
+> *deleteById(Number):* void - Elimina del archivo el objeto con el id buscado.
 
-#### cuente con los siguientes métodos:
-
-> *getFullName():*. Retorna el nombre completo del usuario. 
-
-> *addMascota():* Recibe un nombre de mascota y lo agrega al array de mascotas.
-
-> *countMascotas():* Retorna la cantidad de mascotas que tiene el usuario.
-
-> *addBook():* Recibe un string 'nombre' y un string 'autor' y agrega un objeto: { nombre: String, autor: String } al array de libros.
-
-> *getBookNames():* Retorna un array con sólo los nombres del array de libros del usuario.
+> *deleteAll():* void - Elimina todos los objetos presentes en el archivo.
 
 
 
